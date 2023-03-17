@@ -7,6 +7,7 @@ st.title("Revenue Prediction")
 t= st.number_input("Input Temperature")
 t=np.array(t)
 t=t.reshape(-1,1)
+st.caption("Revenue Prediction")
 if st.button("Predict"):
   y = model.predict(t)
   st.success(*y)
