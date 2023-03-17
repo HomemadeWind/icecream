@@ -1,3 +1,3 @@
 import pickle
-import skicit-learn
+import sklearn
 import model.pickle
